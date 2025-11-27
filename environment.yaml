@@ -1,0 +1,7 @@
+name: dsci522_ind_asg_2
+channels:
+  - conda-forge
+dependencies:
+  - numpy=2.3.5
+  - python=3.11
+  - pandas=2.3.3
