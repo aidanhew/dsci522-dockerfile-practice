@@ -1,6 +1,6 @@
 FROM quay.io/jupyter/minimal-notebook:afe30f0c9ad8
 
-COPY conda-linux-aarch64.lock /tmp/conda.lock
+COPY conda-linux-64.lock /tmp/conda.lock
 
 RUN pip install conda-lock \
     && conda-lock install --prefix /opt/conda/envs/dockerfile-practice /tmp/conda.lock \
